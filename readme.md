@@ -54,7 +54,7 @@ In Visual Studio click Update in the Remote Headers IntelliSense Manager. You'll
 Select Close to dismiss the error, and OK again to exit the Options dialog.
 
 ## Add some source and cross compile it in a container
-We're using a sample from this SensorTag repo: durovsky/SensorTag2650. We only using the source here for talking to the SensorTag, not the whole project. Copy src\senortag.cpp and include\filepaths.h locally into your VS project directory. Right click the project in the solution explorer and click add > existing item. Select the files you just added. You project should now look like this.
+We're using a sample from this SensorTag repo: [durovsky/SensorTag2650](https://github.com/durovsky/SensorTag2650). We only using the source here for talking to the SensorTag, not the whole project. Copy src\senortag.cpp and include\filepaths.h locally into your VS project directory. Right click the project in the solution explorer and click add > existing item. Select the files you just added. You project should now look like this.
 
 ![Solution view](images/06-solution.png)
 
