@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imx6-Bluetooth", "imx6-Bluetooth\imx6-Bluetooth.vcxproj", "{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyFiles", "CopyFiles\CopyFiles.vcxproj", "{A35A4588-4B51-433C-B886-22A201185388}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7} = {6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -16,7 +21,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Debug|ARM.ActiveCfg = Debug|ARM
-		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Debug|ARM.Build.0 = Debug|ARM
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Debug|x64.ActiveCfg = Debug|x64
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Debug|x64.Build.0 = Debug|x64
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Debug|x86.ActiveCfg = Debug|x86
@@ -27,6 +31,17 @@ Global
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Release|x64.Build.0 = Release|x64
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Release|x86.ActiveCfg = Release|x86
 		{6D2A775C-3C7C-4168-8FF8-F1F01EEDC6F7}.Release|x86.Build.0 = Release|x86
+		{A35A4588-4B51-433C-B886-22A201185388}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A35A4588-4B51-433C-B886-22A201185388}.Debug|x64.ActiveCfg = Debug|ARM
+		{A35A4588-4B51-433C-B886-22A201185388}.Debug|x64.Build.0 = Debug|ARM
+		{A35A4588-4B51-433C-B886-22A201185388}.Debug|x86.ActiveCfg = Debug|x86
+		{A35A4588-4B51-433C-B886-22A201185388}.Debug|x86.Build.0 = Debug|x86
+		{A35A4588-4B51-433C-B886-22A201185388}.Release|ARM.ActiveCfg = Release|ARM
+		{A35A4588-4B51-433C-B886-22A201185388}.Release|ARM.Build.0 = Release|ARM
+		{A35A4588-4B51-433C-B886-22A201185388}.Release|x64.ActiveCfg = Release|x64
+		{A35A4588-4B51-433C-B886-22A201185388}.Release|x64.Build.0 = Release|x64
+		{A35A4588-4B51-433C-B886-22A201185388}.Release|x86.ActiveCfg = Release|x86
+		{A35A4588-4B51-433C-B886-22A201185388}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
