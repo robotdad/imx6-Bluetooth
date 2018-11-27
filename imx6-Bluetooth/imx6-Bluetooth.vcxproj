@@ -71,7 +71,7 @@
     <RemoteLinkLocalCopyOutput>false</RemoteLinkLocalCopyOutput>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <IncludePath>C:\Users\mgoodner\AppData\Local\Microsoft\Linux\Header Cache\1.0\-50327719\usr\local\oecore-x86_64\sysroots\armv7at2hf-neon-angstrom-linux-gnueabi\usr\include</IncludePath>
+    <IncludePath>$(LOCALAPPDATA)\Microsoft\$(ApplicationType)\Header Cache\$(ApplicationTypeRevision)\-50327719\usr\local\oecore-x86_64\sysroots\armv7at2hf-neon-angstrom-linux-gnueabi\usr\include</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
