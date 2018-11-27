@@ -81,7 +81,7 @@
       <AdditionalOptions>-march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard --sysroot=/usr/local/oecore-x86_64/sysroots/armv7at2hf-neon-angstrom-linux-gnueabi %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(ProjectDir)bin\$(Platform)\$(Configuration)\$(ProjectName).out" "$(ProjectDir)bin\ARM\$(Configuration)\$(ProjectName).out"</Command>
+      <Command>echo f | xcopy /s/y "$(ProjectDir)bin\$(Platform)\$(Configuration)\$(ProjectName).out" "$(ProjectDir)bin\ARM\$(Configuration)\$(ProjectName).out"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
