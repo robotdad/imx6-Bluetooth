@@ -115,6 +115,8 @@ Now under Remote Post-Build Event we need to set the execute bit for the binary.
 chmod +x /home/root/projects/imx6-Bluetooth/bin/ARM/Debug/imx6-Bluetooth.out
 ```
 
+**It's important that you use the full absolute path here. Do not substitute /home/root with ~/ as it will be interpreted literally as "~/"**
+
 ![remote post build](images/14-remotepostbuild.png)
 
 Let's make sure everything builds and copies correctly. Right click the solution and click Build Solution.
