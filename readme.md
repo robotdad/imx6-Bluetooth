@@ -110,10 +110,13 @@ Now go to Build Events > Pre-Build Event. Make sure the platform has ARM active.
 ```
 ![pre build](images/13-prebuild.png)
 
+
 Now under Remote Post-Build Event we need to set the execute bit for the binary.
 ```
 chmod +x /home/root/projects/imx6-Bluetooth/bin/ARM/Debug/imx6-Bluetooth.out
 ```
+
+**It's important that you use the full absolute path here. Do not substitute /home/root with ~/ as it will be interpreted literally as "~/"**
 
 ![remote post build](images/14-remotepostbuild.png)
 
